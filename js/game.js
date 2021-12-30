@@ -64,7 +64,7 @@ export function setStartingItems() {
       total = 0;
       roundsLeft = Infinity;
       lives = Infinity;
-      [second, millisecond] = [10, 0];
+      [second, millisecond] = [120, 0];
 
       [rounds, score2].forEach((el) => (el.style.visibility = "hidden"));
     }
