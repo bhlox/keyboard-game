@@ -1,5 +1,3 @@
-import { loadRanking } from "./loadRanking.js";
-
 const highScoreModal = document.querySelector(".modal-high-score");
 
 export const leaderboardData = localStorage.getItem("leaderboard")

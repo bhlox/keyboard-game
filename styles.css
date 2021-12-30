@@ -55,6 +55,7 @@ h1 {
 
 .headline {
   font-size: 1.25rem;
+  text-align: center;
 }
 
 .theme-toggle {
@@ -506,7 +507,7 @@ span {
 
 .ranking-container {
   border-collapse: collapse;
-  margin: 2rem 0;
+  margin: -0.4rem 0 2rem;
   font-size: 1.1rem;
   min-width: 400px;
 }
@@ -534,6 +535,13 @@ span {
 
 .ranking-container tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
+}
+
+.sort-alert {
+  font-size: 1.1rem;
+  background-color: #156135;
+  padding: 0.35rem;
+  text-transform: uppercase;
 }
 
 footer {
