@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>04 - Eyes on the Screen || Advent of JavaScript</title>
+    <title>Press what you see</title>
     <link
       rel="stylesheet"
       href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
     />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="styles.css" />
-    <script defer type="module" src="app.js"></script>
+    <script defer type="module" src="./js/app.js"></script>
   </head>
 
   <body>
@@ -130,9 +131,7 @@
             class="hidden difficulty-label"
             value="rank"
           />
-          <label for="rank-btn" class="difficulty-label"
-            >type till you drop</label
-          >
+          <label for="rank-btn" class="difficulty-label">Competitive</label>
           <div class="tooltip">
             ?
             <div class="right">
@@ -142,8 +141,8 @@
                 <li>normal: 30 rounds, 7 lives, 30 seconds</li>
                 <li>hard: 42 rounds, 5 lives, 25 seconds</li>
                 <li>
-                  type till you drop: infinite rounds, infinite lives, 120
-                  seconds
+                  Competitive: infinite rounds, infinite lives, 120 seconds,
+                  grade = correct * 0.7 + accuracy * 0.3
                 </li>
               </ul>
               <i></i>
@@ -161,7 +160,8 @@
       <div class="overlay hidden"></div>
       <div class="modal-high-score hidden">
         <div class="headline">
-          <h2>Type till you drop <br />Ranking</h2>
+          <h2>Competitive <br />Ranking</h2>
+          <h4 class="sort-alert hidden">SORTED BY GRADE</h4>
         </div>
         <table class="ranking-container">
           <thead>
@@ -197,8 +197,10 @@
         </form>
       </div>
       <footer>
-        Made with love by
-        <a href="www.kurkboard.com" target="_blank">Kurk Villanueva</a>
+        Made with &#128151; by
+        <a class="footer-text" href="www.kurkboard.com" target="_blank"
+          >Kurk Villanueva</a
+        >
       </footer>
     </section>
   </body>

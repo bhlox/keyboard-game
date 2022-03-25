@@ -12,6 +12,6 @@ export let difficulty = "normal";
 [easyBtn, normalBtn, hardBtn, rankBtn].forEach((btn) => {
   btn.addEventListener("click", (e) => {
     difficulty = e.target.value;
-    console.log(difficulty);
+    // console.log(difficulty);
   });
 });
