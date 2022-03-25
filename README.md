@@ -12,7 +12,7 @@ even looking at what their hands is about to press.
 
 Live demo -> 
 
-![keyboard_game_gif](https://imgur.com/a/qIJZ2Jx)
+![keyboard_game_gif](https://media.giphy.com/media/PI0IxFkVdeCy1FTu86/giphy.gif)
 ## Features
 
 - Light/dark mode toggle
