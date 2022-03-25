@@ -64,7 +64,7 @@ export function setStartingItems() {
       total = 0;
       roundsLeft = Infinity;
       lives = Infinity;
-      [second, millisecond] = [10, 0];
+      [second, millisecond] = [30, 0];
 
       [rounds, score2].forEach((el) => (el.style.visibility = "hidden"));
     }
@@ -186,6 +186,8 @@ function endGame(e) {
         accuracy: accuracy.toFixed(2) + "%",
         grade: (correct * 0.7 + accuracy * 0.3).toFixed(2),
       };
+
+      // console.log(playerStats.grade);
 
       if (!leaderboardData.length || leaderboardData.length < 10) {
         logNewHighScore();
