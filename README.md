@@ -10,7 +10,7 @@ even looking at what their hands is about to press.
 
 ## Demo
 
-Live demo -> press-what-you-see.vercel.app
+Live demo -> [Press what you see](press-what-you-see.vercel.app)
 
 ![keyboard_game_gif](https://media.giphy.com/media/PI0IxFkVdeCy1FTu86/giphy.gif)
 ## Features
