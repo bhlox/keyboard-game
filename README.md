@@ -21,6 +21,7 @@ Live demo -> [Press what you see](https://press-what-you-see.vercel.app/)
 - Mute button
 - Not repsonsive for medium size screens
 
+screenshot: ![App Screenshot](https://imgur.com/a/8uJOqBu)
 
 ## Lessons Learned
 
